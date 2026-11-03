@@ -1,3 +1,4 @@
+
 import logging
 import os
 from datetime import datetime
@@ -12,4 +13,5 @@ logging.basicConfig(
     filename=logs_path,
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
+    force=True
 )

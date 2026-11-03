@@ -6,5 +6,7 @@ xgboost
 Flask
 scikit-learn
 matplotlib
+dill
+
 # automatically triggered in setup
 -e .
