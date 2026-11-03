@@ -1,5 +1,10 @@
 pandas
 numpy
 seaborn
+catboost
+xgboost
+Flask
+scikit-learn
+matplotlib
 # automatically triggered in setup
 -e .
