@@ -1,12 +1,10 @@
 pandas
 numpy
 seaborn
+matplotlib
+scikit-learn
 catboost
 xgboost
 Flask
-scikit-learn
-matplotlib
-dill
 
-# automatically triggered in setup
--e .
+#-e .

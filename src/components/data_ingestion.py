@@ -10,7 +10,7 @@ from src.exception import CustomException
 from src.logger import logging
 
 from src.components.data_transformation import DataTransformation
-# from src.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainer
 
 
 @dataclass
@@ -104,5 +104,5 @@ if __name__ == "__main__":
     print("Preprocessor saved at:", preprocessor_path)
 
     # Step 3: Model training (after creating model_trainer.py)
-    # modeltrainer = ModelTrainer()
-    # print(modeltrainer.initiate_model_trainer(train_arr, test_arr))
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr, test_arr))
